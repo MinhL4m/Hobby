@@ -1,0 +1,148 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: transparent;
+
+    &--btn {
+        position: absolute;
+        right: 4vw;
+        top: 2vh;
+        z-index: 1000;
+
+        &>input[type='checkbox'] {
+            display: none;
+        }
+
+        #top,
+        #middle,
+        #bottom {
+            width: 40px;
+            height: 3px;
+            background: black;
+            margin-bottom: 5px;
+        }
+
+        .topcheck {
+            animation: topAnimation 0.2s forwards;
+        }
+
+        .middlecheck {
+            animation: middleAnimation 0.2s forwards;
+        }
+
+        .bottomcheck {
+            display: none;
+        }
+
+        .topuncheck {
+            animation: topUncheckAnimation 0.2s forwards;
+        }
+
+        .middleuncheck {
+            animation: middleUncheckAnimation 0.2s forwards;
+        }
+
+        .bottomuncheck {
+            display: block
+        }
+    }
+
+    &--nav {
+        position: absolute;
+        display: flex;
+        background: red;
+        width: 100vw;
+        height: 100vh;
+        z-index: 500;
+        top: 0;
+        left: 100%;
+        align-items: center;
+        justify-content: center;
+
+        .nav--link{
+            list-style: none;
+        }
+    }
+
+    &--navCheck {
+        animation: navAnmation 0.5s forwards;
+    }
+
+    &--navUncheck {
+        animation: navUncheckAnmation 0.4s forwards;
+    }
+}
+
+@keyframes navAnmation {
+    0% {
+        left: 100%;
+        z-index: 500;
+    }
+
+    100% {
+        left: 0%;
+        z-index: 500;
+    }
+}
+
+@keyframes navUncheckAnmation {
+    0% {
+        left: 0%;
+        z-index: 500;
+    }
+
+    100% {
+        left: 100%;
+        z-index: 500;
+    }
+}
+
+
+@keyframes topAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(45deg);
+        transform-origin: 37%;
+    }
+}
+
+@keyframes middleAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+        transform-origin: 37%;
+    }
+}
+
+@keyframes topUncheckAnimation {
+    0% {
+        transform: rotate(45deg);
+        transform-origin: 37%;
+    }
+
+    100% {
+        transform: rotate(0);
+        transform-origin: 37%;
+    }
+}
+
+@keyframes middleUncheckAnimation {
+    0% {
+        transform: rotate(-45deg);
+        transform-origin: 37%;
+    }
+
+    100% {
+        transform: rotate(0);
+        transform-origin: 37%;
+    }
+}

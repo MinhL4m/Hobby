@@ -1,0 +1,12 @@
+.index {
+  width: 100vw;
+  height: 100%;
+  z-index: 10;
+}
+
+.index--background {
+  width: 100%;
+  height: 50vh;
+  z-index: -1;
+}
+/*# sourceMappingURL=Index.css.map */
