@@ -68,7 +68,9 @@ export class HeaderContainer extends React.Component<HeaderContainerProps, { tog
         ul?.addEventListener('click', (e) => {
             const li = e.target as Element;
             if (li.tagName === 'A') {
-                this.state.toggle ? this.uncheck() : this.check();
+                setTimeout(()=>{
+                    this.state.toggle ? this.uncheck() : this.check();
+                },200)
             }
 
         })

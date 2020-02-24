@@ -1,12 +1,38 @@
 .index {
     width: 100vw;
     height: 100%;
-
     z-index: 10;
 
     &--background {
         width: 100%;
-        height: 50vh;
-        z-index: -1
+        height: 100vh;
+        z-index: -1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &>div {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+
+    &--text::after {
+        content: 'Welcome to my page';
+        animation: indexText 4s infinite alternate-reverse;
+    }
+}
+
+@keyframes indexText {
+    0% {
+        content: 'Welcome to my page';
+    }
+
+    100% {
+        content: 'Enjoy';
     }
 }

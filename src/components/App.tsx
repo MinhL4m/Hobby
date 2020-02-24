@@ -5,7 +5,13 @@ import { IndexContainer } from './Index/logic/IndexContainer'
 import { ContactContainer } from './Contact/logic/ContactContainer'
 import { PorfolioContainer } from './Porfolio/logic/PorfolioContainer'
 import { AboutContainer } from './About/logic/AboutContainer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookSquare, faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import './style/index.css'
+
+library.add(faEnvelope, faFacebookSquare, faLinkedin, faGithubSquare)
+
 
 const App: React.FC = () => {
   return (
