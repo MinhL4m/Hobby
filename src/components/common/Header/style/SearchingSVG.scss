@@ -1,0 +1,52 @@
+#question {
+    animation: questionAnimation 4s infinite;
+}
+
+@keyframes questionAnimation {
+    0% {
+        transform: translate(10px);
+    }
+
+    25% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(15px);
+    }
+
+    75% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(10px);
+    }
+}
+
+#flower {
+    animation: flowerAnimation 4s infinite;
+    transform-origin: 70% 100%;
+}
+
+@keyframes flowerAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

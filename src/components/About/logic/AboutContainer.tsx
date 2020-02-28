@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { About } from '../view/About';
 
-interface AboutContainerProps {
-
-}
+interface AboutContainerProps {}
 
 export const AboutContainer: React.FC<AboutContainerProps> = ({}) => {
-        return (<div></div>);
-}
+	return <About />;
+};

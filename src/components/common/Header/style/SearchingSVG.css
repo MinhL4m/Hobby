@@ -1,0 +1,104 @@
+#question {
+  -webkit-animation: questionAnimation 4s infinite;
+          animation: questionAnimation 4s infinite;
+}
+
+@-webkit-keyframes questionAnimation {
+  0% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+  25% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(15px);
+            transform: translate(15px);
+  }
+  75% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  100% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+}
+
+@keyframes questionAnimation {
+  0% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+  25% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(15px);
+            transform: translate(15px);
+  }
+  75% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  100% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+}
+
+#flower {
+  -webkit-animation: flowerAnimation 4s infinite;
+          animation: flowerAnimation 4s infinite;
+  -webkit-transform-origin: 70% 100%;
+          transform-origin: 70% 100%;
+}
+
+@-webkit-keyframes flowerAnimation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  25% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes flowerAnimation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  25% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+/*# sourceMappingURL=SearchingSVG.css.map */

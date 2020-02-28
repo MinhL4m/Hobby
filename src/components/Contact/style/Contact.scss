@@ -1,0 +1,58 @@
+.contact {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        letter-spacing: 2px;
+    }
+
+    &--container {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 5vh 2vw;
+        margin-top: 5vh;
+
+        svg {
+            color: rgba(27, 27, 27, 0.932);
+
+            &:visited,
+            &:active {
+                color: rgba(27, 27, 27, 0.932);
+            }
+
+            &:hover {
+                animation: iconHover infinite 0.7s both cubic-bezier(.45, -0.33, .41, 1.39);
+            }
+        }
+    }
+}
+
+@keyframes iconHover {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(25deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-25deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

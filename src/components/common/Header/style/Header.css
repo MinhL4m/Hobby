@@ -10,7 +10,7 @@
 .header--btn {
   position: absolute;
   right: 4vw;
-  top: 2vh;
+  top: 4vh;
   z-index: 1000;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: rgba(54, 54, 54, 0.849);
+  background: rgba(54, 54, 54, 0.938);
   width: 100vw;
   height: 100vh;
   z-index: 500;
@@ -161,12 +161,14 @@
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    background: #000;
   }
   100% {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
 }
 
@@ -174,12 +176,14 @@
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    background: #000;
   }
   100% {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
 }
 
@@ -187,12 +191,14 @@
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    background: #000;
   }
   100% {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
 }
 
@@ -200,12 +206,14 @@
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    background: #000;
   }
   100% {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
 }
 
@@ -215,12 +223,14 @@
             transform: rotate(45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #000;
   }
 }
 
@@ -230,12 +240,14 @@
             transform: rotate(45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #000;
   }
 }
 
@@ -245,12 +257,14 @@
             transform: rotate(-45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #000;
   }
 }
 
@@ -260,12 +274,14 @@
             transform: rotate(-45deg);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #fff;
   }
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
     -webkit-transform-origin: 37%;
             transform-origin: 37%;
+    background: #000;
   }
 }
 /*# sourceMappingURL=Header.css.map */

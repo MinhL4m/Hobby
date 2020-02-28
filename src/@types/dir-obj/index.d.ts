@@ -1,3 +1,4 @@
-declare module 'react-router-dom'
-declare module 'vanta/dist/vanta.waves.min'
-declare module '@fortawesome/fontawesome'
+declare module 'react-router-dom';
+declare module 'vanta/dist/vanta.waves.min';
+declare module '@fortawesome/fontawesome';
+declare module 'chart.js'
