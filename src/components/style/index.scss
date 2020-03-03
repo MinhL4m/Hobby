@@ -10,6 +10,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato';
+    color: #333333;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: #333333;
 }
 
 .App {
