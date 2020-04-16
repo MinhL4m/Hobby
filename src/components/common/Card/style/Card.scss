@@ -10,7 +10,8 @@
     box-shadow: 0px 4px 7px rgba(0, 0, 0, .5);
     transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
     overflow: hidden;
-
+    transition: 0.5s ease-in;
+    transform: translate(50%, 0%);
 
     & img {
         width: 100%;
@@ -48,7 +49,7 @@
 }
 
 .descriptions {
-    position: absolute;  
+    position: absolute;
     top: 0px;
     left: 0px;
     background-color: rgba(255, 255, 255, .7);
@@ -58,4 +59,9 @@
     padding: 20px;
     box-sizing: border-box;
     clip-path: circle(0% at 100% 100%);
+}
+
+.inScreen1,
+.inScreen2 {
+    transform: translate(0, 0);
 }

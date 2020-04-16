@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '../../common/Header/view/Card';
+import { Card } from '../../common/Card/View/Card';
 interface EducationProps {}
 
 const backSideVietnam: React.FunctionComponent<{}> = ({}) => {
@@ -31,6 +31,40 @@ const backSideCanada: React.FunctionComponent<{}> = ({}) => {
 };
 
 export const Education: React.FC<EducationProps> = ({}) => {
+	React.useEffect(() => {
+		const options = {
+			threshold: 0,
+			rootMargin: '-30px'
+		};
+
+		const card = document.getElementsByClassName('card');
+		const observer1 = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (!entry.isIntersecting) {
+					card[0].classList.remove('inScreen1');
+				} else {
+					card[0].classList.add('inScreen1');
+				}
+			});
+		}, options);
+		observer1.observe(card[0]);
+
+		const observer2 = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (!entry.isIntersecting) {
+					card[1].classList.remove('inScreen2');
+				} else {
+					card[1].classList.add('inScreen2');
+				}
+			});
+		}, options);
+		observer2.observe(card[1]);
+
+		return () => {
+			// cleanup
+		};
+	}, []);
+
 	return (
 		<div className="education">
 			<h1 className="about--header">Education Journal</h1>

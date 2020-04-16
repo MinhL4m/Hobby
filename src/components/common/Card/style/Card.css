@@ -17,6 +17,10 @@
   -webkit-transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   overflow: hidden;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+  -webkit-transform: translate(50%, 0%);
+          transform: translate(50%, 0%);
 }
 
 .card img {
@@ -75,5 +79,11 @@
           box-sizing: border-box;
   -webkit-clip-path: circle(0% at 100% 100%);
           clip-path: circle(0% at 100% 100%);
+}
+
+.inScreen1,
+.inScreen2 {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 /*# sourceMappingURL=Card.css.map */

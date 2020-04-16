@@ -5,6 +5,11 @@
 @import '../About/style/About.scss';
 
 
+$breakpoint-phone:625px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 992px;
+
+
 * {
     padding: 0;
     margin: 0;
@@ -55,4 +60,14 @@
 p {
     line-height: 1.5rem;
     letter-spacing: 1px;
+}
+
+@media (max-width: $breakpoint-phone) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 90%;
+    }
 }

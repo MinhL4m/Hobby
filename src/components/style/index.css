@@ -10,7 +10,7 @@
 .header--btn {
   position: absolute;
   right: 4vw;
-  top: 4vh;
+  top: 3.5vh;
   z-index: 1000;
   cursor: pointer;
 }
@@ -310,7 +310,7 @@
   text-align: center;
 }
 
-.index--background h1 {
+.index--background span {
   font-size: 3.5rem;
 }
 
@@ -435,6 +435,12 @@
   }
 }
 
+.about p {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
 .about img {
   width: 100%;
 }
@@ -470,6 +476,10 @@
 
 .softskills--description {
   margin: 0 0 4vh 0;
+}
+
+.softskills .svg {
+  margin-bottom: 3rem;
 }
 
 .find {
@@ -530,6 +540,16 @@
           clip-path: circle(142% at 0 0);
 }
 
+@media (max-width: 768px) {
+  .introduction p {
+    padding: 3vh 0;
+  }
+  .card {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -585,5 +605,15 @@
 p {
   line-height: 1.5rem;
   letter-spacing: 1px;
+}
+
+@media (max-width: 625px) {
+  .grid-2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .container {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

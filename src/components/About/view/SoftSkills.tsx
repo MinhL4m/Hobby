@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChillingSVG } from '../../common/Header/view/ChillingSVG';
-import { SearchingSVG } from '../../common/Header/view/SearchingSVG';
+import { ChillingSVG } from '../../common/SVG/view/ChillingSVG';
+import { SearchingSVG } from '../../common/SVG/view/SearchingSVG';
 interface SoftSkillsProps {}
 
 export const SoftSkills: React.FC<SoftSkillsProps> = ({}) => {
