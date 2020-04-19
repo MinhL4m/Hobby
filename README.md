@@ -37,8 +37,29 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Technologies used to built this project
+- React with Typescript
+- React Router
+- ChartJS
+- Intersection Observer
+- Vanta.js
+- SVG Animation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots from website
+### Home Page
+![Screenshot from 2020-04-19 07-59-09](https://user-images.githubusercontent.com/44929757/79689710-ce93be80-8213-11ea-9dc2-0fedab9ec962.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### About
+- Implement ChartJS
+![Screenshot from 2020-04-19 08-01-51](https://user-images.githubusercontent.com/44929757/79689751-131f5a00-8214-11ea-91d5-ea381b2e881d.png)
+
+
+- SVG animation
+![Screenshot from 2020-04-19 08-03-37](https://user-images.githubusercontent.com/44929757/79689799-524dab00-8214-11ea-906c-20de5e6a8bfd.png)
+
+### Contact
+- Box Shadow follow cursor
+![Screenshot from 2020-04-19 08-06-34](https://user-images.githubusercontent.com/44929757/79689867-bff9d700-8214-11ea-8511-1a87d90f2b69.png)
+
+### NavBar
+![Screenshot from 2020-04-19 08-08-25](https://user-images.githubusercontent.com/44929757/79689926-1b2bc980-8215-11ea-8f2b-a9f85b99191e.png)
